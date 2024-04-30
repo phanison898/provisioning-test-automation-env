@@ -85,10 +85,10 @@ As a SDET, I have to setup **`Test Automation Environment`** for running tests i
 
 #### 🖋 Selenium Hub | docker-compose.yml file configuration
 
-![Selenium Hub](https://github.com/phanison898/github-drive/blob/main/selenium_hub_yaml_file.png)
+![Selenium Hub](https://raw.githubusercontent.com/phanison898/github-drive/main/selenium_hub_yaml_file.png)
 
 ---
 
 #### 📑 Terraform main resourses configuration file
 
-![Terraform main](https://github.com/phanison898/github-drive/blob/main/terraform_main_file.png)
+![Terraform main](https://raw.githubusercontent.com/phanison898/github-drive/main/terraform_main_file.png)
