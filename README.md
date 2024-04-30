@@ -98,3 +98,13 @@ As a SDET, I have to setup **`Test Automation Environment`** for running tests i
 #### Terraform Spin-Up logs
 
 ![terraform spin up](https://raw.githubusercontent.com/phanison898/github-drive/main/terraform_spin_up_logs.png)
+
+#### Selenium Grid is Up and Running
+
+Include the below url in selenium test scrips as remote web driver url
+
+```bash
+    http://3.80.204.113:4444/wd/hub
+```
+
+![selenium grid](https://raw.githubusercontent.com/phanison898/github-drive/main/selenium_grid.png)
