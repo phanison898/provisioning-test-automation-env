@@ -92,3 +92,9 @@ As a SDET, I have to setup **`Test Automation Environment`** for running tests i
 #### 📑 Terraform main resourses configuration file
 
 ![Terraform main](https://raw.githubusercontent.com/phanison898/github-drive/main/terraform_main_file.png)
+
+---
+
+#### Terraform Spin-Up logs
+
+![terraform spin up](https://raw.githubusercontent.com/phanison898/github-drive/main/terraform_spin_up_logs.png)
