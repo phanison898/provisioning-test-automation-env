@@ -9,3 +9,6 @@ terraform*
 
 # secret file
 *.tfvars
+
+# ip file
+ip.txt
