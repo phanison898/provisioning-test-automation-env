@@ -47,12 +47,13 @@ As a SDET, I have to setup **`Test Automation Environment`** for running tests i
 3. Create secrets.tfvars file with following properties and include your AWS properties
 
    ```bash
-        access_key    = <YOUR_AWS_ACCESS_KEY>
-        secret_key    = <YOUR_AWS_SECRETS>
-        region        = "us-east-1"
-        key_name      = <YOUR_AWS_PEM_KEY>
-        instance_type = "t2.micro" # free tier
-        ami           = "ami-0050e19f8a75d260f" # aws linux 2023 | free tier
+        access_key            =     <YOUR_AWS_ACCESS_KEY>
+        secret_key            =     <YOUR_AWS_SECRETS>
+        region                =     "us-east-1"
+        key_name              =     <YOUR_AWS_PEM_KEY>
+        instance_type         =     "t2.micro" # free tier
+        ami                   =     "ami-0050e19f8a75d260f" # aws linux 2023 | free tier
+        private_key_location  =     "path/to/your/aws/pem/file"
 
    ```
 
@@ -80,10 +81,14 @@ As a SDET, I have to setup **`Test Automation Environment`** for running tests i
        terraform apply -var-file="secrets.tfvars" -auto-approve
    ```
 
-8. Destroy when not needed
+---
 
-   ```bash
-       terraform destroy -var-file="secrets.tfvars"
-   ```
+#### 🖋 Selenium Hub | docker-compose.yml file configuration
+
+![Selenium Hub](https://github.com/phanison898/github-drive/blob/main/selenium_hub_yaml_file.png)
 
 ---
+
+#### 📑 Terraform main resourses configuration file
+
+![Terraform main](https://github.com/phanison898/github-drive/blob/main/terraform_main_file.png)
