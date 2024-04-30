@@ -1,0 +1,11 @@
+# Terraform directories and files
+/.terraform/*
+.terraform*
+terraform*
+
+
+# Crash log files
+*.log
+
+# secret file
+*.tfvars
