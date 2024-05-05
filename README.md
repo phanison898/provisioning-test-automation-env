@@ -49,10 +49,10 @@ As a SDET, I have to setup **`Test Automation Environment`** for running tests i
    ```bash
         access_key            =     <YOUR_AWS_ACCESS_KEY>
         secret_key            =     <YOUR_AWS_SECRETS>
-        region                =     "us-east-1"
+        region                =     "us-east-1" # change as per your requirement
         key_name              =     <YOUR_AWS_PEM_KEY>
-        instance_type         =     "t2.micro" # free tier
-        ami                   =     "ami-0050e19f8a75d260f" # aws linux 2023 | free tier
+        instance_type         =     "t2.micro" # free tier | change as per your requirement
+        ami                   =     "ami-0050e19f8a75d260f" # aws linux 2023 | free tier | change as per your requirement
         private_key_location  =     "path/to/your/aws/pem/file"
 
    ```
@@ -104,7 +104,10 @@ As a SDET, I have to setup **`Test Automation Environment`** for running tests i
 Include the below url in selenium test scrips as remote web driver url
 
 ```bash
-    http://3.80.204.113:4444/wd/hub
+    http://<ip_address>:4444/wd/hub
+
+   Example:
+   http://3.80.204.113:4444/wd/hub
 ```
 
 ![selenium grid](https://raw.githubusercontent.com/phanison898/github-drive/main/selenium_grid.png)
